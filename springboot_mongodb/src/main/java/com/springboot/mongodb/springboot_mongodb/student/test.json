@@ -1,0 +1,16 @@
+{
+  "firstName": "name1",
+  "lasName": "name1",
+  "email": "name1@gmail.com",
+  "gender": "MALE",
+  "address": {
+    "country": "India",
+    "city": "Madurai",
+    "pinCode": "625703"
+  },
+  "favouriteSubjects": [
+    "Maths",
+    "CS"
+  ],
+  "totalSpentInBooks": 10
+}
