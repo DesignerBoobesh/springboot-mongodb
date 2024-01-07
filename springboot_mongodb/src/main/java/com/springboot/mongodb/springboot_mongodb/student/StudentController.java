@@ -15,18 +15,6 @@ public class StudentController {
         this.studentService = studentService;
     }
 
-    @PostMapping("/create")
-    public Student addStudent(@RequestBody Student student) {
-        return studentService.createStudent(student);
-    }
-
-    @GetMapping("/list")
-    public List<Student> fetchAllStudents() {
-        return studentService.getAllStudents();
-    }
-
-
-
     @GetMapping("/form")
     public String showForm(Model model) {
         model.addAttribute("student", new Student());
